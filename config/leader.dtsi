@@ -11,14 +11,14 @@ Note: The leader sequence must be pressed exactly as defined to be triggered.
 To capitalize a letter, hold the shift key (or tap sticky-shift) *before*
 tapping the leader key. */
 
-/* German umlauts */
+/* German umlauts 
 
 ZMK_LEADER_SEQUENCE(de_ae,      &de_ae,         LM4 RM2)  // ä
 ZMK_LEADER_SEQUENCE(de_oe,      &de_oe,         RM4 RM2)  // ö
 ZMK_LEADER_SEQUENCE(de_ue,      &de_ue,         RT2 RM2)  // ü
 ZMK_LEADER_SEQUENCE(de_eszett,  &de_eszett,     LM2 LM2)  // ß
-
-/* Greek letters */
+*/
+/* Greek letters 
 
 ZMK_LEADER_SEQUENCE(el_alpha,   &el_alpha,      RM2 LM4)  // α
 ZMK_LEADER_SEQUENCE(el_beta,    &el_beta,       RM2 LT0)  // β
@@ -45,3 +45,4 @@ ZMK_LEADER_SEQUENCE(el_chi,     &el_chi,        RM2 LB2)  // χ
 ZMK_LEADER_SEQUENCE(el_psi,     &el_psi,        RM2 RT3)  // ψ
 ZMK_LEADER_SEQUENCE(el_omega,   &el_omega,      RM2 LT3)  // ω
 
+*/
