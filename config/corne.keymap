@@ -87,10 +87,10 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 /* Custom behaviors */
 
 // Alt+Tab swapper, requires PR #1366
-// ZMK_TRI_STATE(swapper,
-//     bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-//     ignored-key-positions = <LT2>;
-// )
+ZMK_TRI_STATE(swapper,
+    bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+    ignored-key-positions = <LT2>;
+)
 
 // reuse basic mod-morph scheme
 #define SIMPLE_MORPH(NAME, MOD, BINDING1, BINDING2) \
@@ -163,7 +163,8 @@ ZMK_LAYER(base,
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     XXX           &kp B         &kp Y         &kp O         &kp U         &kp Z           &kp Q         &kp L         &kp D         &kp W         &kp V         XXX          
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    XXX           &hml LGUI C   &hml LALT I   &hml LSHFT E  &hml LCTRL A  &kp COMMA       &kp DOT       &hmr LCTRL H  &hmr RSHFT T  &hmr LALT S   &hmr LGUI N   XXX          
+//  XXX           &hml LGUI C   &hml LALT I   &hml LSHFT E  &hml LCTRL A  &kp COMMA       &kp DOT       &hmr LCTRL H  &hmr RSHFT T  &hmr LALT S   &hmr LGUI N   XXX          
+    XXX           &kp C         &kp I         &kp E         &kp A         &kp COMMA       &kp DOT       &kp H         &kp T         &kp S         &kp N         XXX          
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     XXX           &kp G         &kp X         &kp J         &kp K         &kp MINUS       &kp FSLH      &kp R         &kp M         &kp F         &kp P         XXX          
 //╰───────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴─────────────────────────────────────────╯
@@ -173,7 +174,7 @@ ZMK_LAYER(base,
 
 ZMK_LAYER(nav,
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    XXX           ___           ___           ___           ___           ___             ___           &kp N7        &kp N8        &kp N9        ___           XXX          
+    XXX           ___           ___           &swapper      ___           ___             ___           &kp N7        &kp N8        &kp N9        ___           XXX          
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     XXX           &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     ___             ___           &kp N4        &kp N5        &kp N6        &kp N0        XXX          
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
