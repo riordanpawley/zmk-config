@@ -32,6 +32,10 @@ ZMK_COMBO(eq,   &kp EQUAL,      LM2 LM1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO
 ZMK_COMBO(star,   &kp STAR,      LB4 LB3,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(lbrc,   &kp LBRC,      LB3 LB2,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(lt,   &kp LT,      LB2 LB1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+
+// combos that are not adjacent
+ZMK_COMBO(caret,   &kp CARET,      LM3 LM1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(shift_left,   &kp LSHFT,      LM1 LM4,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* END Horizontal combos - left hand */
 
 /* Diagonal combos - left hand */
@@ -42,6 +46,11 @@ ZMK_COMBO(colon,   &kp COLON,      LB3 LM2,     DEF NAV NUM, COMBO_TERM_FAST, CO
 ZMK_COMBO(lbkt,   &kp LBKT,      LT2 LM1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(sqt,   &kp SQT,      LM2 LB1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* END Diagonal combos - left hand */
+
+/* Vertical comos - left hand */
+ZMK_COMBO(grave_two,   &kp GRAVE,      LM4 LT4,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(bslh_two,   &kp BSLH,      LM1 LT1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+/* END Vertical combos - left hand */
 /* END Left Hand */
 
 /* Right Hand */
@@ -57,6 +66,9 @@ ZMK_COMBO(del,   &kp DEL,   RM3 RM4,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDL
 ZMK_COMBO(plus,   &kp PLUS,      RB4 RB3,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(rbrc,   &kp RBRC,      RB3 RB2,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(gt,   &kp GT,      RB2 RB1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+// combos that are not adjacent
+ZMK_COMBO(dllr,   &kp DLLR,      RM1 RM3,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(shift_right,   &kp RSHFT,      RM1 RM4,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* END Horizontal combos - right hand */
 
 /* Diagonal combos - right hand */
@@ -67,6 +79,10 @@ ZMK_COMBO(semi,   &kp SEMI,      RB3 RM2,     DEF NAV NUM, COMBO_TERM_FAST, COMB
 ZMK_COMBO(rbkt,   &kp RBKT,      RT2 RM1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(dqt,   &kp DQT,      RM2 RB1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* END Diagonal combos - right hand */
+
+/* Vertical comos - right hand */
+ZMK_COMBO(fslh_two,   &kp FSLH,      RM1 RT1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+/* END Vertical combos - right hand */
 /* END Right Hand */
 
 
