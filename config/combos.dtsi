@@ -49,7 +49,7 @@ ZMK_COMBO(sqt,   &kp SQT,      LM2 LB1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_
 
 /* Vertical comos - left hand */
 ZMK_COMBO(grave_two,   &kp GRAVE,      LM4 LT4,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(bslh_two,   &kp BSLH,      LM1 LT1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(bslh_two,   &kp BSLH,      LB2 LM2,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* END Vertical combos - left hand */
 /* END Left Hand */
 
@@ -81,7 +81,7 @@ ZMK_COMBO(dqt,   &kp DQT,      RM2 RB1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_
 /* END Diagonal combos - right hand */
 
 /* Vertical comos - right hand */
-ZMK_COMBO(fslh_two,   &kp FSLH,      RM1 RT1,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(fslh_two,   &kp FSLH,      RB2 RM2,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 /* END Vertical combos - right hand */
 /* END Right Hand */
 
